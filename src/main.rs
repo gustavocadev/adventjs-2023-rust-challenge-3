@@ -50,6 +50,7 @@ fn find_naughty_step(original: String, modified: String) -> String {
       }
     }
   }
+  // todo: validate the case where original and modified values are are like this: abcdfg abcde
 
   modified_step
 }
